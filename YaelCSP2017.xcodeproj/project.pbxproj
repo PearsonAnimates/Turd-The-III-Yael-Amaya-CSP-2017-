@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72ECAF8A1FA25D1D00E0CFC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72ECAF891FA25D1D00E0CFC0 /* AppDelegate.swift */; };
+		72ECAF8C1FA25D1D00E0CFC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72ECAF8B1FA25D1D00E0CFC0 /* ViewController.swift */; };
+		72ECAF8F1FA25D1D00E0CFC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72ECAF8D1FA25D1D00E0CFC0 /* Main.storyboard */; };
+		72ECAF911FA25D1D00E0CFC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72ECAF901FA25D1D00E0CFC0 /* Assets.xcassets */; };
+		72ECAF941FA25D1D00E0CFC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72ECAF921FA25D1D00E0CFC0 /* LaunchScreen.storyboard */; };
+		72ECAF9F1FA25D1E00E0CFC0 /* YaelCSP2017Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72ECAF9E1FA25D1E00E0CFC0 /* YaelCSP2017Tests.swift */; };
+		72ECAFAA1FA25D1E00E0CFC0 /* YaelCSP2017UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72ECAFA91FA25D1E00E0CFC0 /* YaelCSP2017UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72ECAF9B1FA25D1D00E0CFC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72ECAF7E1FA25D1C00E0CFC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72ECAF851FA25D1C00E0CFC0;
+			remoteInfo = YaelCSP2017;
+		};
+		72ECAFA61FA25D1E00E0CFC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72ECAF7E1FA25D1C00E0CFC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72ECAF851FA25D1C00E0CFC0;
+			remoteInfo = YaelCSP2017;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		72ECAF861FA25D1C00E0CFC0 /* YaelCSP2017.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YaelCSP2017.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72ECAF891FA25D1D00E0CFC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		72ECAF8B1FA25D1D00E0CFC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		72ECAF8E1FA25D1D00E0CFC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		72ECAF901FA25D1D00E0CFC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72ECAF931FA25D1D00E0CFC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		72ECAF951FA25D1D00E0CFC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72ECAF9A1FA25D1D00E0CFC0 /* YaelCSP2017Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YaelCSP2017Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72ECAF9E1FA25D1E00E0CFC0 /* YaelCSP2017Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YaelCSP2017Tests.swift; sourceTree = "<group>"; };
+		72ECAFA01FA25D1E00E0CFC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72ECAFA51FA25D1E00E0CFC0 /* YaelCSP2017UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YaelCSP2017UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72ECAFA91FA25D1E00E0CFC0 /* YaelCSP2017UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YaelCSP2017UITests.swift; sourceTree = "<group>"; };
+		72ECAFAB1FA25D1E00E0CFC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72ECAF831FA25D1C00E0CFC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72ECAF971FA25D1D00E0CFC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72ECAFA21FA25D1E00E0CFC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72ECAF7D1FA25D1C00E0CFC0 = {
+			isa = PBXGroup;
+			children = (
+				72ECAF881FA25D1C00E0CFC0 /* YaelCSP2017 */,
+				72ECAF9D1FA25D1D00E0CFC0 /* YaelCSP2017Tests */,
+				72ECAFA81FA25D1E00E0CFC0 /* YaelCSP2017UITests */,
+				72ECAF871FA25D1C00E0CFC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72ECAF871FA25D1C00E0CFC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72ECAF861FA25D1C00E0CFC0 /* YaelCSP2017.app */,
+				72ECAF9A1FA25D1D00E0CFC0 /* YaelCSP2017Tests.xctest */,
+				72ECAFA51FA25D1E00E0CFC0 /* YaelCSP2017UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72ECAF881FA25D1C00E0CFC0 /* YaelCSP2017 */ = {
+			isa = PBXGroup;
+			children = (
+				72ECAFB71FA25D2A00E0CFC0 /* Controller */,
+				72ECAFB81FA25D3700E0CFC0 /* View */,
+				72ECAFBA1FA25D5C00E0CFC0 /* Model */,
+				72ECAFB91FA25D5300E0CFC0 /* Resources */,
+			);
+			path = YaelCSP2017;
+			sourceTree = "<group>";
+		};
+		72ECAF9D1FA25D1D00E0CFC0 /* YaelCSP2017Tests */ = {
+			isa = PBXGroup;
+			children = (
+				72ECAF9E1FA25D1E00E0CFC0 /* YaelCSP2017Tests.swift */,
+				72ECAFA01FA25D1E00E0CFC0 /* Info.plist */,
+			);
+			path = YaelCSP2017Tests;
+			sourceTree = "<group>";
+		};
+		72ECAFA81FA25D1E00E0CFC0 /* YaelCSP2017UITests */ = {
+			isa = PBXGroup;
+			children = (
+				72ECAFA91FA25D1E00E0CFC0 /* YaelCSP2017UITests.swift */,
+				72ECAFAB1FA25D1E00E0CFC0 /* Info.plist */,
+			);
+			path = YaelCSP2017UITests;
+			sourceTree = "<group>";
+		};
+		72ECAFB71FA25D2A00E0CFC0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				72ECAF891FA25D1D00E0CFC0 /* AppDelegate.swift */,
+				72ECAF8B1FA25D1D00E0CFC0 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		72ECAFB81FA25D3700E0CFC0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				72ECAF921FA25D1D00E0CFC0 /* LaunchScreen.storyboard */,
+				72ECAF8D1FA25D1D00E0CFC0 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		72ECAFB91FA25D5300E0CFC0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				72ECAF901FA25D1D00E0CFC0 /* Assets.xcassets */,
+				72ECAF951FA25D1D00E0CFC0 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		72ECAFBA1FA25D5C00E0CFC0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72ECAF851FA25D1C00E0CFC0 /* YaelCSP2017 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72ECAFAE1FA25D1E00E0CFC0 /* Build configuration list for PBXNativeTarget "YaelCSP2017" */;
+			buildPhases = (
+				72ECAF821FA25D1C00E0CFC0 /* Sources */,
+				72ECAF831FA25D1C00E0CFC0 /* Frameworks */,
+				72ECAF841FA25D1C00E0CFC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YaelCSP2017;
+			productName = YaelCSP2017;
+			productReference = 72ECAF861FA25D1C00E0CFC0 /* YaelCSP2017.app */;
+			productType = "com.apple.product-type.application";
+		};
+		72ECAF991FA25D1D00E0CFC0 /* YaelCSP2017Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72ECAFB11FA25D1E00E0CFC0 /* Build configuration list for PBXNativeTarget "YaelCSP2017Tests" */;
+			buildPhases = (
+				72ECAF961FA25D1D00E0CFC0 /* Sources */,
+				72ECAF971FA25D1D00E0CFC0 /* Frameworks */,
+				72ECAF981FA25D1D00E0CFC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72ECAF9C1FA25D1D00E0CFC0 /* PBXTargetDependency */,
+			);
+			name = YaelCSP2017Tests;
+			productName = YaelCSP2017Tests;
+			productReference = 72ECAF9A1FA25D1D00E0CFC0 /* YaelCSP2017Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		72ECAFA41FA25D1E00E0CFC0 /* YaelCSP2017UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72ECAFB41FA25D1E00E0CFC0 /* Build configuration list for PBXNativeTarget "YaelCSP2017UITests" */;
+			buildPhases = (
+				72ECAFA11FA25D1E00E0CFC0 /* Sources */,
+				72ECAFA21FA25D1E00E0CFC0 /* Frameworks */,
+				72ECAFA31FA25D1E00E0CFC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72ECAFA71FA25D1E00E0CFC0 /* PBXTargetDependency */,
+			);
+			name = YaelCSP2017UITests;
+			productName = YaelCSP2017UITests;
+			productReference = 72ECAFA51FA25D1E00E0CFC0 /* YaelCSP2017UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72ECAF7E1FA25D1C00E0CFC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Amaya Penunuri, Yael";
+				TargetAttributes = {
+					72ECAF851FA25D1C00E0CFC0 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					72ECAF991FA25D1D00E0CFC0 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 72ECAF851FA25D1C00E0CFC0;
+					};
+					72ECAFA41FA25D1E00E0CFC0 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 72ECAF851FA25D1C00E0CFC0;
+					};
+				};
+			};
+			buildConfigurationList = 72ECAF811FA25D1C00E0CFC0 /* Build configuration list for PBXProject "YaelCSP2017" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72ECAF7D1FA25D1C00E0CFC0;
+			productRefGroup = 72ECAF871FA25D1C00E0CFC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72ECAF851FA25D1C00E0CFC0 /* YaelCSP2017 */,
+				72ECAF991FA25D1D00E0CFC0 /* YaelCSP2017Tests */,
+				72ECAFA41FA25D1E00E0CFC0 /* YaelCSP2017UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72ECAF841FA25D1C00E0CFC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72ECAF941FA25D1D00E0CFC0 /* LaunchScreen.storyboard in Resources */,
+				72ECAF911FA25D1D00E0CFC0 /* Assets.xcassets in Resources */,
+				72ECAF8F1FA25D1D00E0CFC0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72ECAF981FA25D1D00E0CFC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72ECAFA31FA25D1E00E0CFC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72ECAF821FA25D1C00E0CFC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72ECAF8C1FA25D1D00E0CFC0 /* ViewController.swift in Sources */,
+				72ECAF8A1FA25D1D00E0CFC0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72ECAF961FA25D1D00E0CFC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72ECAF9F1FA25D1E00E0CFC0 /* YaelCSP2017Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72ECAFA11FA25D1E00E0CFC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72ECAFAA1FA25D1E00E0CFC0 /* YaelCSP2017UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72ECAF9C1FA25D1D00E0CFC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72ECAF851FA25D1C00E0CFC0 /* YaelCSP2017 */;
+			targetProxy = 72ECAF9B1FA25D1D00E0CFC0 /* PBXContainerItemProxy */;
+		};
+		72ECAFA71FA25D1E00E0CFC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72ECAF851FA25D1C00E0CFC0 /* YaelCSP2017 */;
+			targetProxy = 72ECAFA61FA25D1E00E0CFC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		72ECAF8D1FA25D1D00E0CFC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72ECAF8E1FA25D1D00E0CFC0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		72ECAF921FA25D1D00E0CFC0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72ECAF931FA25D1D00E0CFC0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72ECAFAC1FA25D1E00E0CFC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		72ECAFAD1FA25D1E00E0CFC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72ECAFAF1FA25D1E00E0CFC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/YaelCSP2017/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ACRONYM.YaelCSP2017;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72ECAFB01FA25D1E00E0CFC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/YaelCSP2017/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ACRONYM.YaelCSP2017;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		72ECAFB21FA25D1E00E0CFC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YaelCSP2017Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ACRONYM.YaelCSP2017Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YaelCSP2017.app/YaelCSP2017";
+			};
+			name = Debug;
+		};
+		72ECAFB31FA25D1E00E0CFC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YaelCSP2017Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ACRONYM.YaelCSP2017Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YaelCSP2017.app/YaelCSP2017";
+			};
+			name = Release;
+		};
+		72ECAFB51FA25D1E00E0CFC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YaelCSP2017UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ACRONYM.YaelCSP2017UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YaelCSP2017;
+			};
+			name = Debug;
+		};
+		72ECAFB61FA25D1E00E0CFC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YaelCSP2017UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ACRONYM.YaelCSP2017UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YaelCSP2017;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72ECAF811FA25D1C00E0CFC0 /* Build configuration list for PBXProject "YaelCSP2017" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72ECAFAC1FA25D1E00E0CFC0 /* Debug */,
+				72ECAFAD1FA25D1E00E0CFC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72ECAFAE1FA25D1E00E0CFC0 /* Build configuration list for PBXNativeTarget "YaelCSP2017" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72ECAFAF1FA25D1E00E0CFC0 /* Debug */,
+				72ECAFB01FA25D1E00E0CFC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72ECAFB11FA25D1E00E0CFC0 /* Build configuration list for PBXNativeTarget "YaelCSP2017Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72ECAFB21FA25D1E00E0CFC0 /* Debug */,
+				72ECAFB31FA25D1E00E0CFC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72ECAFB41FA25D1E00E0CFC0 /* Build configuration list for PBXNativeTarget "YaelCSP2017UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72ECAFB51FA25D1E00E0CFC0 /* Debug */,
+				72ECAFB61FA25D1E00E0CFC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72ECAF7E1FA25D1C00E0CFC0 /* Project object */;
+}
