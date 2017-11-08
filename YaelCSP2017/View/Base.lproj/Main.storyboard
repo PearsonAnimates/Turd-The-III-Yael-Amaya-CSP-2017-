@@ -40,10 +40,10 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
-        <!--Algroithms View Controller-->
+        <!--Algorithms View Controller-->
         <scene sceneID="buA-fN-DrT">
             <objects>
-                <viewController id="kMa-CD-jZ4" customClass="AlgroithmsViewController" customModule="YaelCSP2017" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="kMa-CD-jZ4" customClass="AlgorithmsViewController" customModule="YaelCSP2017" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7bJ-R9-alL">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -61,7 +61,7 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fNE-pL-ccT">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="javaSample@1" translatesAutoresizingMaskIntoConstraints="NO" id="fNE-pL-ccT">
                                 <rect key="frame" x="16" y="301" width="332" height="327"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -69,6 +69,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="idh-mt-1E8"/>
                     </view>
+                    <connections>
+                        <outlet property="algorithmText" destination="eDe-FC-PEn" id="VWV-ey-ptv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iB6-Dd-Noe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -165,4 +168,7 @@
             <point key="canvasLocation" x="2622" y="30"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="javaSample@1" width="1126" height="754"/>
+    </resources>
 </document>
