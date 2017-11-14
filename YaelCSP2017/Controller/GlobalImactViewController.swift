@@ -10,6 +10,15 @@ import UIKit
 
 class GlobalImpactViewController: UIViewController {
     
+   
+    @IBOutlet weak var labelofgod: UILabel!
+    @IBOutlet weak var Calvins_Edible_Hobbits: UILabel!
+    
+    
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -19,6 +28,14 @@ class GlobalImpactViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
+    private func setup() -> Void
+    {
+        labelofgod.text = ""
+        
+    }
+    
     
     
 }

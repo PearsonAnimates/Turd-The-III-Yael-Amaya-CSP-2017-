@@ -39,6 +39,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="670" y="29"/>
         </scene>
         <!--Algorithms View Controller-->
         <scene sceneID="buA-fN-DrT">
@@ -77,20 +78,48 @@
             </objects>
             <point key="canvasLocation" x="669.60000000000002" y="687.7061469265368"/>
         </scene>
-        <!--Golbal Impact View Controller-->
+        <!--Global Impact View Controller-->
         <scene sceneID="KWj-lv-vd8">
             <objects>
-                <viewController id="ts3-ax-iNt" customClass="GolbalImpactViewController" customModule="YaelCSP2017" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ts3-ax-iNt" customClass="GlobalImpactViewController" customModule="YaelCSP2017" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8Pm-pq-cOU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lastpolarbearsbanner160x211" translatesAutoresizingMaskIntoConstraints="NO" id="8Ot-qG-e6B">
+                                <rect key="frame" x="67" y="20" width="240" height="161"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tnc-IW-A8O">
+                                <rect key="frame" x="166" y="450" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="czV-7T-7Mb">
+                                <rect key="frame" x="166" y="560" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iNg-BF-rgR">
+                                <rect key="frame" x="67" y="178" width="240" height="232"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="NZX-cL-luh"/>
                     </view>
+                    <connections>
+                        <outlet property="Calvins_Edible_Hobbits" destination="czV-7T-7Mb" id="TUJ-ru-dQ3"/>
+                        <outlet property="labelofgod" destination="Tnc-IW-A8O" id="inY-RV-feU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z6x-Zm-qIT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1300" y="688"/>
+            <point key="canvasLocation" x="1300" y="687.7061469265368"/>
         </scene>
         <!--Programming View Controller-->
         <scene sceneID="MOr-9f-AfU">
@@ -170,5 +199,6 @@
     </scenes>
     <resources>
         <image name="javaSample@1" width="1126" height="754"/>
+        <image name="lastpolarbearsbanner160x211" width="160" height="211"/>
     </resources>
 </document>
