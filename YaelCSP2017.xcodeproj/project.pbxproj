@@ -23,6 +23,9 @@
 		72ECAF941FA25D1D00E0CFC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72ECAF921FA25D1D00E0CFC0 /* LaunchScreen.storyboard */; };
 		72ECAF9F1FA25D1E00E0CFC0 /* YaelCSP2017Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72ECAF9E1FA25D1E00E0CFC0 /* YaelCSP2017Tests.swift */; };
 		72ECAFAA1FA25D1E00E0CFC0 /* YaelCSP2017UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72ECAFA91FA25D1E00E0CFC0 /* YaelCSP2017UITests.swift */; };
+		72F8A5AE1FCF36880041EBC9 /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F8A5AD1FCF36880041EBC9 /* InternetMasterViewController.swift */; };
+		72F8A5B01FCF39CE0041EBC9 /* internetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F8A5AF1FCF39CE0041EBC9 /* internetDetailViewController.swift */; };
+		72F8A5B31FCF3B980041EBC9 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F8A5B21FCF3B980041EBC9 /* WebKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +68,9 @@
 		72ECAFA51FA25D1E00E0CFC0 /* YaelCSP2017UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YaelCSP2017UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		72ECAFA91FA25D1E00E0CFC0 /* YaelCSP2017UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YaelCSP2017UITests.swift; sourceTree = "<group>"; };
 		72ECAFAB1FA25D1E00E0CFC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72F8A5AD1FCF36880041EBC9 /* InternetMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterViewController.swift; sourceTree = "<group>"; };
+		72F8A5AF1FCF39CE0041EBC9 /* internetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = internetDetailViewController.swift; sourceTree = "<group>"; };
+		72F8A5B21FCF3B980041EBC9 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72F8A5B31FCF3B980041EBC9 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +106,7 @@
 				72ECAF9D1FA25D1D00E0CFC0 /* YaelCSP2017Tests */,
 				72ECAFA81FA25D1E00E0CFC0 /* YaelCSP2017UITests */,
 				72ECAF871FA25D1C00E0CFC0 /* Products */,
+				72F8A5B11FCF3B980041EBC9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -153,6 +161,8 @@
 				72BD95DD1FB3949A0048D5B2 /* GlobalImactViewController.swift */,
 				72BD95DF1FB394A80048D5B2 /* ProgrammingViewController.swift */,
 				72BD95E11FB394B30048D5B2 /* InternetViewController.swift */,
+				72F8A5AD1FCF36880041EBC9 /* InternetMasterViewController.swift */,
+				72F8A5AF1FCF39CE0041EBC9 /* internetDetailViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -182,6 +192,14 @@
 				72CC6B7D1FC3611B00CFFAFC /* SquishedSteak.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		72F8A5B11FCF3B980041EBC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72F8A5B21FCF3B980041EBC9 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -319,8 +337,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				72BD95E21FB394B30048D5B2 /* InternetViewController.swift in Sources */,
+				72F8A5AE1FCF36880041EBC9 /* InternetMasterViewController.swift in Sources */,
 				72CC6B7C1FC360F700CFFAFC /* JuicySteak.swift in Sources */,
 				72ECAF8C1FA25D1D00E0CFC0 /* ViewController.swift in Sources */,
+				72F8A5B01FCF39CE0041EBC9 /* internetDetailViewController.swift in Sources */,
 				72ECAF8A1FA25D1D00E0CFC0 /* AppDelegate.swift in Sources */,
 				72BD95DB1FB394760048D5B2 /* AlgorithsViewController.swift in Sources */,
 				72BD95D91FB394670048D5B2 /* DataViewController.swift in Sources */,
