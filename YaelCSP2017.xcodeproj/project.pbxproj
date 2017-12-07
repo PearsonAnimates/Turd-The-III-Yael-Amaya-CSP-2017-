@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		728FA3171FD9D36900F0B55E /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728FA3161FD9D36900F0B55E /* ArtCell.swift */; };
 		729275C81FD72B06009B6960 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729275C71FD72B06009B6960 /* DrawingView.swift */; };
 		72BD95D31FB393F70048D5B2 /* CreativityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BD95D21FB393F70048D5B2 /* CreativityViewController.swift */; };
 		72BD95D71FB3943F0048D5B2 /* AbstractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BD95D61FB3943F0048D5B2 /* AbstractionViewController.swift */; };
@@ -47,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		728FA3161FD9D36900F0B55E /* ArtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
 		729275C71FD72B06009B6960 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 		72BD95D21FB393F70048D5B2 /* CreativityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreativityViewController.swift; sourceTree = "<group>"; };
 		72BD95D61FB3943F0048D5B2 /* AbstractionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractionViewController.swift; sourceTree = "<group>"; };
@@ -165,6 +167,7 @@
 				72BD95E11FB394B30048D5B2 /* InternetViewController.swift */,
 				72F8A5AD1FCF36880041EBC9 /* InternetMasterViewController.swift */,
 				72F8A5AF1FCF39CE0041EBC9 /* internetDetailViewController.swift */,
+				728FA3161FD9D36900F0B55E /* ArtCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -341,6 +344,7 @@
 			files = (
 				72BD95E21FB394B30048D5B2 /* InternetViewController.swift in Sources */,
 				72F8A5AE1FCF36880041EBC9 /* InternetMasterViewController.swift in Sources */,
+				728FA3171FD9D36900F0B55E /* ArtCell.swift in Sources */,
 				72CC6B7C1FC360F700CFFAFC /* JuicySteak.swift in Sources */,
 				72ECAF8C1FA25D1D00E0CFC0 /* ViewController.swift in Sources */,
 				72F8A5B01FCF39CE0041EBC9 /* internetDetailViewController.swift in Sources */,
