@@ -9,6 +9,18 @@
 /* Begin PBXBuildFile section */
 		728FA3171FD9D36900F0B55E /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728FA3161FD9D36900F0B55E /* ArtCell.swift */; };
 		729275C81FD72B06009B6960 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729275C71FD72B06009B6960 /* DrawingView.swift */; };
+		7298F1BE1FE45245000DAB84 /* StarField.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7298F1BD1FE45245000DAB84 /* StarField.sks */; };
+		7298F1C61FE4526C000DAB84 /* Invader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7298F1BF1FE4526B000DAB84 /* Invader.swift */; };
+		7298F1C71FE4526C000DAB84 /* PlayerLaser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7298F1C01FE4526B000DAB84 /* PlayerLaser.swift */; };
+		7298F1C81FE4526C000DAB84 /* JuicySteak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7298F1C11FE4526B000DAB84 /* JuicySteak.swift */; };
+		7298F1C91FE4526C000DAB84 /* InvaderLaser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7298F1C21FE4526B000DAB84 /* InvaderLaser.swift */; };
+		7298F1CA1FE4526C000DAB84 /* SquishedSteak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7298F1C31FE4526C000DAB84 /* SquishedSteak.swift */; };
+		7298F1CB1FE4526C000DAB84 /* Projectile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7298F1C41FE4526C000DAB84 /* Projectile.swift */; };
+		7298F1CC1FE4526C000DAB84 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7298F1C51FE4526C000DAB84 /* Player.swift */; };
+		7298F1D01FE45298000DAB84 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7298F1CD1FE45298000DAB84 /* GameScene.swift */; };
+		7298F1D11FE45298000DAB84 /* StartScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7298F1CE1FE45298000DAB84 /* StartScene.swift */; };
+		7298F1D21FE45298000DAB84 /* LevelCompleteScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7298F1CF1FE45298000DAB84 /* LevelCompleteScene.swift */; };
+		7298F1D41FE452AF000DAB84 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7298F1D31FE452AF000DAB84 /* Utilities.swift */; };
 		72BD95D31FB393F70048D5B2 /* CreativityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BD95D21FB393F70048D5B2 /* CreativityViewController.swift */; };
 		72BD95D71FB3943F0048D5B2 /* AbstractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BD95D61FB3943F0048D5B2 /* AbstractionViewController.swift */; };
 		72BD95D91FB394670048D5B2 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BD95D81FB394670048D5B2 /* DataViewController.swift */; };
@@ -16,8 +28,6 @@
 		72BD95DE1FB3949A0048D5B2 /* GlobalImactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BD95DD1FB3949A0048D5B2 /* GlobalImactViewController.swift */; };
 		72BD95E01FB394A80048D5B2 /* ProgrammingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BD95DF1FB394A80048D5B2 /* ProgrammingViewController.swift */; };
 		72BD95E21FB394B30048D5B2 /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BD95E11FB394B30048D5B2 /* InternetViewController.swift */; };
-		72CC6B7C1FC360F700CFFAFC /* JuicySteak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CC6B7B1FC360F700CFFAFC /* JuicySteak.swift */; };
-		72CC6B7E1FC3611B00CFFAFC /* SquishedSteak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CC6B7D1FC3611B00CFFAFC /* SquishedSteak.swift */; };
 		72ECAF8A1FA25D1D00E0CFC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72ECAF891FA25D1D00E0CFC0 /* AppDelegate.swift */; };
 		72ECAF8C1FA25D1D00E0CFC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72ECAF8B1FA25D1D00E0CFC0 /* ViewController.swift */; };
 		72ECAF8F1FA25D1D00E0CFC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72ECAF8D1FA25D1D00E0CFC0 /* Main.storyboard */; };
@@ -49,6 +59,23 @@
 /* Begin PBXFileReference section */
 		728FA3161FD9D36900F0B55E /* ArtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
 		729275C71FD72B06009B6960 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		7298F1A91FE45145000DAB84 /* extra sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "extra sound.mp3"; sourceTree = "<group>"; };
+		7298F1AA1FE45145000DAB84 /* boss sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "boss sound.mp3"; sourceTree = "<group>"; };
+		7298F1AB1FE4514C000DAB84 /* invader sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "invader sound.mp3"; sourceTree = "<group>"; };
+		7298F1AC1FE4514C000DAB84 /* laser sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "laser sound.mp3"; sourceTree = "<group>"; };
+		7298F1AD1FE4514C000DAB84 /* powerup sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "powerup sound.mp3"; sourceTree = "<group>"; };
+		7298F1BD1FE45245000DAB84 /* StarField.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StarField.sks; sourceTree = "<group>"; };
+		7298F1BF1FE4526B000DAB84 /* Invader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Invader.swift; sourceTree = "<group>"; };
+		7298F1C01FE4526B000DAB84 /* PlayerLaser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerLaser.swift; sourceTree = "<group>"; };
+		7298F1C11FE4526B000DAB84 /* JuicySteak.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JuicySteak.swift; sourceTree = "<group>"; };
+		7298F1C21FE4526B000DAB84 /* InvaderLaser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvaderLaser.swift; sourceTree = "<group>"; };
+		7298F1C31FE4526C000DAB84 /* SquishedSteak.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquishedSteak.swift; sourceTree = "<group>"; };
+		7298F1C41FE4526C000DAB84 /* Projectile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Projectile.swift; sourceTree = "<group>"; };
+		7298F1C51FE4526C000DAB84 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		7298F1CD1FE45298000DAB84 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		7298F1CE1FE45298000DAB84 /* StartScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartScene.swift; sourceTree = "<group>"; };
+		7298F1CF1FE45298000DAB84 /* LevelCompleteScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelCompleteScene.swift; sourceTree = "<group>"; };
+		7298F1D31FE452AF000DAB84 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		72BD95D21FB393F70048D5B2 /* CreativityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreativityViewController.swift; sourceTree = "<group>"; };
 		72BD95D61FB3943F0048D5B2 /* AbstractionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractionViewController.swift; sourceTree = "<group>"; };
 		72BD95D81FB394670048D5B2 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
@@ -56,8 +83,6 @@
 		72BD95DD1FB3949A0048D5B2 /* GlobalImactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalImactViewController.swift; sourceTree = "<group>"; };
 		72BD95DF1FB394A80048D5B2 /* ProgrammingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingViewController.swift; sourceTree = "<group>"; };
 		72BD95E11FB394B30048D5B2 /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
-		72CC6B7B1FC360F700CFFAFC /* JuicySteak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuicySteak.swift; sourceTree = "<group>"; };
-		72CC6B7D1FC3611B00CFFAFC /* SquishedSteak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquishedSteak.swift; sourceTree = "<group>"; };
 		72ECAF861FA25D1C00E0CFC0 /* YaelCSP2017.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YaelCSP2017.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72ECAF891FA25D1D00E0CFC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72ECAF8B1FA25D1D00E0CFC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +126,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		723E67291FE44F9C0091BF33 /* GameController */ = {
+			isa = PBXGroup;
+			children = (
+				7298F1CD1FE45298000DAB84 /* GameScene.swift */,
+				7298F1CF1FE45298000DAB84 /* LevelCompleteScene.swift */,
+				7298F1CE1FE45298000DAB84 /* StartScene.swift */,
+			);
+			path = GameController;
+			sourceTree = "<group>";
+		};
+		727B04981FE44D2900BD467B /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				72ECAF951FA25D1D00E0CFC0 /* Info.plist */,
+				7298F1AA1FE45145000DAB84 /* boss sound.mp3 */,
+				7298F1AB1FE4514C000DAB84 /* invader sound.mp3 */,
+				7298F1AC1FE4514C000DAB84 /* laser sound.mp3 */,
+				7298F1AD1FE4514C000DAB84 /* powerup sound.mp3 */,
+				7298F1A91FE45145000DAB84 /* extra sound.mp3 */,
+				72ECAF901FA25D1D00E0CFC0 /* Assets.xcassets */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		72ECAF7D1FA25D1C00E0CFC0 = {
 			isa = PBXGroup;
 			children = (
@@ -154,6 +203,7 @@
 		72ECAFB71FA25D2A00E0CFC0 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				723E67291FE44F9C0091BF33 /* GameController */,
 				72ECAF8B1FA25D1D00E0CFC0 /* ViewController.swift */,
 				72BD95D21FB393F70048D5B2 /* CreativityViewController.swift */,
 				72ECAF891FA25D1D00E0CFC0 /* AppDelegate.swift */,
@@ -173,6 +223,7 @@
 		72ECAFB81FA25D3700E0CFC0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7298F1BD1FE45245000DAB84 /* StarField.sks */,
 				72ECAF8D1FA25D1D00E0CFC0 /* Main.storyboard */,
 				729275C71FD72B06009B6960 /* DrawingView.swift */,
 			);
@@ -182,8 +233,8 @@
 		72ECAFB91FA25D5300E0CFC0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				72ECAF901FA25D1D00E0CFC0 /* Assets.xcassets */,
-				72ECAF951FA25D1D00E0CFC0 /* Info.plist */,
+				7298F1D31FE452AF000DAB84 /* Utilities.swift */,
+				727B04981FE44D2900BD467B /* Sounds */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -191,8 +242,13 @@
 		72ECAFBA1FA25D5C00E0CFC0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				72CC6B7B1FC360F700CFFAFC /* JuicySteak.swift */,
-				72CC6B7D1FC3611B00CFFAFC /* SquishedSteak.swift */,
+				7298F1BF1FE4526B000DAB84 /* Invader.swift */,
+				7298F1C21FE4526B000DAB84 /* InvaderLaser.swift */,
+				7298F1C11FE4526B000DAB84 /* JuicySteak.swift */,
+				7298F1C51FE4526C000DAB84 /* Player.swift */,
+				7298F1C01FE4526B000DAB84 /* PlayerLaser.swift */,
+				7298F1C41FE4526C000DAB84 /* Projectile.swift */,
+				7298F1C31FE4526C000DAB84 /* SquishedSteak.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -312,6 +368,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7298F1BE1FE45245000DAB84 /* StarField.sks in Resources */,
 				72ECAF911FA25D1D00E0CFC0 /* Assets.xcassets in Resources */,
 				72ECAF8F1FA25D1D00E0CFC0 /* Main.storyboard in Resources */,
 			);
@@ -340,19 +397,28 @@
 			files = (
 				72BD95E21FB394B30048D5B2 /* InternetViewController.swift in Sources */,
 				72F8A5AE1FCF36880041EBC9 /* InternetMasterViewController.swift in Sources */,
+				7298F1CA1FE4526C000DAB84 /* SquishedSteak.swift in Sources */,
 				728FA3171FD9D36900F0B55E /* ArtCell.swift in Sources */,
-				72CC6B7C1FC360F700CFFAFC /* JuicySteak.swift in Sources */,
 				72ECAF8C1FA25D1D00E0CFC0 /* ViewController.swift in Sources */,
 				72F8A5B01FCF39CE0041EBC9 /* internetDetailViewController.swift in Sources */,
+				7298F1D41FE452AF000DAB84 /* Utilities.swift in Sources */,
 				72ECAF8A1FA25D1D00E0CFC0 /* AppDelegate.swift in Sources */,
 				72BD95DB1FB394760048D5B2 /* AlgorithsViewController.swift in Sources */,
+				7298F1CC1FE4526C000DAB84 /* Player.swift in Sources */,
+				7298F1C81FE4526C000DAB84 /* JuicySteak.swift in Sources */,
+				7298F1CB1FE4526C000DAB84 /* Projectile.swift in Sources */,
 				729275C81FD72B06009B6960 /* DrawingView.swift in Sources */,
+				7298F1D01FE45298000DAB84 /* GameScene.swift in Sources */,
 				72BD95D91FB394670048D5B2 /* DataViewController.swift in Sources */,
+				7298F1C61FE4526C000DAB84 /* Invader.swift in Sources */,
 				72BD95E01FB394A80048D5B2 /* ProgrammingViewController.swift in Sources */,
+				7298F1C91FE4526C000DAB84 /* InvaderLaser.swift in Sources */,
 				72BD95D31FB393F70048D5B2 /* CreativityViewController.swift in Sources */,
-				72CC6B7E1FC3611B00CFFAFC /* SquishedSteak.swift in Sources */,
 				72BD95DE1FB3949A0048D5B2 /* GlobalImactViewController.swift in Sources */,
+				7298F1C71FE4526C000DAB84 /* PlayerLaser.swift in Sources */,
 				72BD95D71FB3943F0048D5B2 /* AbstractionViewController.swift in Sources */,
+				7298F1D21FE45298000DAB84 /* LevelCompleteScene.swift in Sources */,
+				7298F1D11FE45298000DAB84 /* StartScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,7 +577,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "$(SRCROOT)/YaelCSP2017/Resources/Info.plist";
+				DEVELOPMENT_TEAM = X77K8LBKTS;
+				INFOPLIST_FILE = "$(SRCROOT)/YaelCSP2017/Resources/Sounds/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ACRONYM.YaelCSP2017;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -525,7 +592,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "$(SRCROOT)/YaelCSP2017/Resources/Info.plist";
+				DEVELOPMENT_TEAM = X77K8LBKTS;
+				INFOPLIST_FILE = "$(SRCROOT)/YaelCSP2017/Resources/Sounds/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ACRONYM.YaelCSP2017;
 				PRODUCT_NAME = "$(TARGET_NAME)";
