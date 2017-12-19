@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		721AA20F1FE9A57E00E10967 /* DeathScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721AA20E1FE9A57E00E10967 /* DeathScene.swift */; };
 		728FA3171FD9D36900F0B55E /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728FA3161FD9D36900F0B55E /* ArtCell.swift */; };
 		729275C81FD72B06009B6960 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729275C71FD72B06009B6960 /* DrawingView.swift */; };
 		7298F1BE1FE45245000DAB84 /* StarField.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7298F1BD1FE45245000DAB84 /* StarField.sks */; };
@@ -57,6 +58,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		721AA20E1FE9A57E00E10967 /* DeathScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathScene.swift; sourceTree = "<group>"; };
 		728FA3161FD9D36900F0B55E /* ArtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
 		729275C71FD72B06009B6960 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 		7298F1A91FE45145000DAB84 /* extra sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "extra sound.mp3"; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 				7298F1CD1FE45298000DAB84 /* GameScene.swift */,
 				7298F1CF1FE45298000DAB84 /* LevelCompleteScene.swift */,
 				7298F1CE1FE45298000DAB84 /* StartScene.swift */,
+				721AA20E1FE9A57E00E10967 /* DeathScene.swift */,
 			);
 			path = GameController;
 			sourceTree = "<group>";
@@ -417,6 +420,7 @@
 				72BD95DE1FB3949A0048D5B2 /* GlobalImactViewController.swift in Sources */,
 				7298F1C71FE4526C000DAB84 /* PlayerLaser.swift in Sources */,
 				72BD95D71FB3943F0048D5B2 /* AbstractionViewController.swift in Sources */,
+				721AA20F1FE9A57E00E10967 /* DeathScene.swift in Sources */,
 				7298F1D21FE45298000DAB84 /* LevelCompleteScene.swift in Sources */,
 				7298F1D11FE45298000DAB84 /* StartScene.swift in Sources */,
 			);

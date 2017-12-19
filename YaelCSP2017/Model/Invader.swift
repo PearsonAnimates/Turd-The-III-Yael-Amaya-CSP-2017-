@@ -13,7 +13,6 @@ public class Invader: SKSpriteNode
 {
     var invaderRow : Int = 0
     var invaderCol : Int = 0
- 
     
     //MARK: - Initializers
     public init()
@@ -26,9 +25,10 @@ public class Invader: SKSpriteNode
         self.physicsBody?.isDynamic = true
         self.physicsBody?.usesPreciseCollisionDetection = false
         self.physicsBody?.categoryBitMask = CollisionCategories.Invader
-        self.physicsBody?.contactTestBitMask = CollisionCategories.PlayerBullet | CollisionCategories.Player
+        self.physicsBody?.contactTestBitMask = CollisionCategories.PlayerLaser | CollisionCategories.Player
         self.physicsBody?.collisionBitMask = CollisionCategories.EdgeBody
     }
+    
     // Required init must be provided by subclass
     required public init?(coder aDecoder: NSCoder)
     {
@@ -38,6 +38,12 @@ public class Invader: SKSpriteNode
     //MARK: - Invader methods section
     public func fireBullet(scene: SKScene) -> Void
     {
-
+        let bullet = InvaderLaser(imageName: "laser",bulletSound: nil)
+        bullet.position.x = self.position.x
+        bullet.position.y = self.position.y
+        scene.addChild(bullet)
+        let moveBulletAction = SKAction.move(to:CGPoint(x:self.position.x,y: 0 - bullet.size.height), duration: 2.0)
+        let removeBulletAction = SKAction.removeFromParent()
+        bullet.run(SKAction.sequence([moveBulletAction,removeBulletAction]))
     }
 }
