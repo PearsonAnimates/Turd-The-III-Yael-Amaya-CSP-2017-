@@ -33,9 +33,9 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
     private func setupInvaders() -> Void
     {
         let numberOfInvaders = gameLevel * 2 + 1
-        for invaderRow in 0..<numberOfInvaders
+        for invaderRow in 0 ..< numberOfInvaders
         {
-            for invaderCol in 0..<numberOfInvaders
+            for invaderCol in 0 ..< numberOfInvaders
             {
                 let currentInvader :Invader = Invader()
                 let halfWidth : CGFloat = currentInvader.size.width / 2
@@ -72,7 +72,7 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
             let invader = node as! SKSpriteNode
             let invaderHalfWidth = invader.size.width / 2
             invader.position.x -= CGFloat(self.invaderSpeed)
-            if(invader.position.x > self.rightBounds - invaderHalfWidth || invader.position.x < self.leftBounds + invaderHalfWidth)
+            if(invader.position.x > self.rightBounds + invaderHalfWidth || invader.position.x < self.leftBounds - invaderHalfWidth)
             {
                 changeDirection = true
             }
@@ -151,6 +151,11 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
         self.physicsBody = SKPhysicsBody(edgeLoopFrom: frame)
         self.physicsBody?.categoryBitMask = CollisionCategories.EdgeBody
         
+        let starField = SKEmitterNode(fileNamed: "StarField")
+        starField?.position = CGPoint(x: size.width / 2,y: size.height / 2)
+        starField?.zPosition = -1000
+        addChild(starField!)
+        
         backgroundColor = UIColor.magenta
         rightBounds = self.size.width - 30
         setupInvaders()
@@ -196,6 +201,7 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
         
         var firstBody: SKPhysicsBody
         var secondBody: SKPhysicsBody
+        
         if contact.bodyA.categoryBitMask < contact.bodyB.categoryBitMask
         {
             firstBody = contact.bodyA
@@ -209,6 +215,38 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
         
         if((firstBody.categoryBitMask & CollisionCategories.Invader != 0) && (secondBody.categoryBitMask & CollisionCategories.PlayerLaser != 0))
         {
+            if(contact.bodyA.node?.parent == nil || contact.bodyB.node?.parent == nil)
+            {
+                return
+            }
+            
+            let theInvader = firstBody.node as! Invader
+            let newInvaderRow = theInvader.invaderRow
+            let newInvaderCol = theInvader.invaderCol
+            if(newInvaderRow >= 1)
+            {
+                self.enumerateChildNodes(withName: "invader")
+                {
+                    node, stop in
+                    let invader = node as! Invader
+                    if invader.invaderRow == newInvaderRow && invader.invaderCol == newInvaderCol
+                    {
+                        self.invadersThatCanFire.append(invader)
+                        stop.pointee = true
+                    }
+                }
+            }
+            let invaderIndex = invadersThatCanFire.index(of: firstBody.node as! Invader)
+            if(invaderIndex != nil)
+            {
+                invadersThatCanFire.remove(at: invaderIndex!)
+            }
+            theInvader.removeFromParent()
+            secondBody.node?.removeFromParent()
+        }
+        
+        if((firstBody.categoryBitMask & CollisionCategories.Invader != 0) && (secondBody.categoryBitMask & CollisionCategories.PlayerLaser != 0))
+        {
             print("Invader and Player Bullet Contact")
         }
         
@@ -217,9 +255,19 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
             print("Player and Invader Bullet Contact")
         }
         
+        if((firstBody.categoryBitMask & CollisionCategories.Player != 0) && (secondBody.categoryBitMask & CollisionCategories.Invader != 0))
+        {
+            print("Invader and Player Colision Contact")
+        }
+        
+        if((firstBody.categoryBitMask & CollisionCategories.Player != 0) && (secondBody.categoryBitMask & CollisionCategories.InvaderLaser != 0))
+        {
+            player.die()
+        }
+        
         if((firstBody.categoryBitMask & CollisionCategories.Invader != 0) && (secondBody.categoryBitMask & CollisionCategories.Player != 0))
         {
-            print("Invader and Player Collision Contact")
+            player.kill()
         }
     }
     
