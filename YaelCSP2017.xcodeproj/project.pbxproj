@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		721AA20F1FE9A57E00E10967 /* DeathScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721AA20E1FE9A57E00E10967 /* DeathScene.swift */; };
+		726CC336200001AB00462A18 /* DataViewControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726CC335200001AB00462A18 /* DataViewControllerTableViewController.swift */; };
+		726CC3392000032600462A18 /* BucketItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726CC3382000032600462A18 /* BucketItemCell.swift */; };
+		726CC33B2000067D00462A18 /* BucketItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726CC33A2000067D00462A18 /* BucketItem.swift */; };
 		728FA3171FD9D36900F0B55E /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728FA3161FD9D36900F0B55E /* ArtCell.swift */; };
 		729275C81FD72B06009B6960 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729275C71FD72B06009B6960 /* DrawingView.swift */; };
 		7298F1BE1FE45245000DAB84 /* StarField.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7298F1BD1FE45245000DAB84 /* StarField.sks */; };
@@ -59,6 +62,10 @@
 
 /* Begin PBXFileReference section */
 		721AA20E1FE9A57E00E10967 /* DeathScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathScene.swift; sourceTree = "<group>"; };
+		726CC335200001AB00462A18 /* DataViewControllerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewControllerTableViewController.swift; sourceTree = "<group>"; };
+		726CC3382000032600462A18 /* BucketItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItemCell.swift; sourceTree = "<group>"; };
+		726CC33A2000067D00462A18 /* BucketItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItem.swift; sourceTree = "<group>"; };
+		726CC33C200006B400462A18 /* bucket.csv */ = {isa = PBXFileReference; lastKnownFileType = text; name = bucket.csv; path = ../../../../Downloads/bucket.csv; sourceTree = "<group>"; };
 		728FA3161FD9D36900F0B55E /* ArtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
 		729275C71FD72B06009B6960 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 		7298F1A91FE45145000DAB84 /* extra sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "extra sound.mp3"; sourceTree = "<group>"; };
@@ -137,6 +144,15 @@
 				721AA20E1FE9A57E00E10967 /* DeathScene.swift */,
 			);
 			path = GameController;
+			sourceTree = "<group>";
+		};
+		726CC337200002EE00462A18 /* DataView */ = {
+			isa = PBXGroup;
+			children = (
+				726CC335200001AB00462A18 /* DataViewControllerTableViewController.swift */,
+				726CC3382000032600462A18 /* BucketItemCell.swift */,
+			);
+			path = DataView;
 			sourceTree = "<group>";
 		};
 		727B04981FE44D2900BD467B /* Sounds */ = {
@@ -226,6 +242,7 @@
 		72ECAFB81FA25D3700E0CFC0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				726CC337200002EE00462A18 /* DataView */,
 				7298F1BD1FE45245000DAB84 /* StarField.sks */,
 				72ECAF8D1FA25D1D00E0CFC0 /* Main.storyboard */,
 				729275C71FD72B06009B6960 /* DrawingView.swift */,
@@ -236,6 +253,7 @@
 		72ECAFB91FA25D5300E0CFC0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				726CC33C200006B400462A18 /* bucket.csv */,
 				7298F1D31FE452AF000DAB84 /* Utilities.swift */,
 				727B04981FE44D2900BD467B /* Sounds */,
 			);
@@ -252,6 +270,7 @@
 				7298F1C01FE4526B000DAB84 /* PlayerLaser.swift */,
 				7298F1C41FE4526C000DAB84 /* Projectile.swift */,
 				7298F1C31FE4526C000DAB84 /* SquishedSteak.swift */,
+				726CC33A2000067D00462A18 /* BucketItem.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -412,6 +431,9 @@
 				7298F1CB1FE4526C000DAB84 /* Projectile.swift in Sources */,
 				729275C81FD72B06009B6960 /* DrawingView.swift in Sources */,
 				7298F1D01FE45298000DAB84 /* GameScene.swift in Sources */,
+				726CC336200001AB00462A18 /* DataViewControllerTableViewController.swift in Sources */,
+				726CC3392000032600462A18 /* BucketItemCell.swift in Sources */,
+				726CC33B2000067D00462A18 /* BucketItem.swift in Sources */,
 				72BD95D91FB394670048D5B2 /* DataViewController.swift in Sources */,
 				7298F1C61FE4526C000DAB84 /* Invader.swift in Sources */,
 				72BD95E01FB394A80048D5B2 /* ProgrammingViewController.swift in Sources */,
