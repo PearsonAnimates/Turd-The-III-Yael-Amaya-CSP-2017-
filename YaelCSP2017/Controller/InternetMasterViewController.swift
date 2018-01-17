@@ -32,11 +32,11 @@ class InternetMasterViewController: UITableViewController
         //TODO: Replace with your correct links
         addresses = [
             "https://www.google.com",
-            "https://www.google.com",
-            "https://www.google.com",
-            "https://www.google.com",
-            "https://www.google.com",
-            "https://www.google.com"
+            "https://www.youtube.com",
+            "https://www.amazon.com",
+            "https://www.starbucks.com",
+            "https://www.in-n-out.com",
+            "https://www.fish.com/"
         ]
         
         if let splitView = splitViewController

@@ -8,9 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		721AA20F1FE9A57E00E10967 /* DeathScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721AA20E1FE9A57E00E10967 /* DeathScene.swift */; };
-		726CC336200001AB00462A18 /* DataViewControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726CC335200001AB00462A18 /* DataViewControllerTableViewController.swift */; };
-		726CC3392000032600462A18 /* BucketItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726CC3382000032600462A18 /* BucketItemCell.swift */; };
 		726CC33B2000067D00462A18 /* BucketItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726CC33A2000067D00462A18 /* BucketItem.swift */; };
+		72899573200E982F00F4AE2C /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72899572200E982F00F4AE2C /* DataViewController.swift */; };
 		728FA3171FD9D36900F0B55E /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728FA3161FD9D36900F0B55E /* ArtCell.swift */; };
 		729275C81FD72B06009B6960 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729275C71FD72B06009B6960 /* DrawingView.swift */; };
 		7298F1BE1FE45245000DAB84 /* StarField.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7298F1BD1FE45245000DAB84 /* StarField.sks */; };
@@ -27,11 +26,11 @@
 		7298F1D41FE452AF000DAB84 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7298F1D31FE452AF000DAB84 /* Utilities.swift */; };
 		72BD95D31FB393F70048D5B2 /* CreativityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BD95D21FB393F70048D5B2 /* CreativityViewController.swift */; };
 		72BD95D71FB3943F0048D5B2 /* AbstractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BD95D61FB3943F0048D5B2 /* AbstractionViewController.swift */; };
-		72BD95D91FB394670048D5B2 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BD95D81FB394670048D5B2 /* DataViewController.swift */; };
 		72BD95DB1FB394760048D5B2 /* AlgorithsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BD95DA1FB394760048D5B2 /* AlgorithsViewController.swift */; };
 		72BD95DE1FB3949A0048D5B2 /* GlobalImactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BD95DD1FB3949A0048D5B2 /* GlobalImactViewController.swift */; };
 		72BD95E01FB394A80048D5B2 /* ProgrammingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BD95DF1FB394A80048D5B2 /* ProgrammingViewController.swift */; };
 		72BD95E21FB394B30048D5B2 /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BD95E11FB394B30048D5B2 /* InternetViewController.swift */; };
+		72E3653C200E91BB00E3D4B9 /* BucketItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E3653B200E91BB00E3D4B9 /* BucketItemCell.swift */; };
 		72ECAF8A1FA25D1D00E0CFC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72ECAF891FA25D1D00E0CFC0 /* AppDelegate.swift */; };
 		72ECAF8C1FA25D1D00E0CFC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72ECAF8B1FA25D1D00E0CFC0 /* ViewController.swift */; };
 		72ECAF8F1FA25D1D00E0CFC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72ECAF8D1FA25D1D00E0CFC0 /* Main.storyboard */; };
@@ -62,10 +61,9 @@
 
 /* Begin PBXFileReference section */
 		721AA20E1FE9A57E00E10967 /* DeathScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathScene.swift; sourceTree = "<group>"; };
-		726CC335200001AB00462A18 /* DataViewControllerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewControllerTableViewController.swift; sourceTree = "<group>"; };
-		726CC3382000032600462A18 /* BucketItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItemCell.swift; sourceTree = "<group>"; };
 		726CC33A2000067D00462A18 /* BucketItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItem.swift; sourceTree = "<group>"; };
 		726CC33C200006B400462A18 /* bucket.csv */ = {isa = PBXFileReference; lastKnownFileType = text; name = bucket.csv; path = ../../../../Downloads/bucket.csv; sourceTree = "<group>"; };
+		72899572200E982F00F4AE2C /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
 		728FA3161FD9D36900F0B55E /* ArtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
 		729275C71FD72B06009B6960 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 		7298F1A91FE45145000DAB84 /* extra sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "extra sound.mp3"; sourceTree = "<group>"; };
@@ -87,11 +85,11 @@
 		7298F1D31FE452AF000DAB84 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		72BD95D21FB393F70048D5B2 /* CreativityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreativityViewController.swift; sourceTree = "<group>"; };
 		72BD95D61FB3943F0048D5B2 /* AbstractionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractionViewController.swift; sourceTree = "<group>"; };
-		72BD95D81FB394670048D5B2 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
 		72BD95DA1FB394760048D5B2 /* AlgorithsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithsViewController.swift; sourceTree = "<group>"; };
 		72BD95DD1FB3949A0048D5B2 /* GlobalImactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalImactViewController.swift; sourceTree = "<group>"; };
 		72BD95DF1FB394A80048D5B2 /* ProgrammingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingViewController.swift; sourceTree = "<group>"; };
 		72BD95E11FB394B30048D5B2 /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
+		72E3653B200E91BB00E3D4B9 /* BucketItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItemCell.swift; sourceTree = "<group>"; };
 		72ECAF861FA25D1C00E0CFC0 /* YaelCSP2017.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YaelCSP2017.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72ECAF891FA25D1D00E0CFC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72ECAF8B1FA25D1D00E0CFC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -149,8 +147,8 @@
 		726CC337200002EE00462A18 /* DataView */ = {
 			isa = PBXGroup;
 			children = (
-				726CC335200001AB00462A18 /* DataViewControllerTableViewController.swift */,
-				726CC3382000032600462A18 /* BucketItemCell.swift */,
+				72E3653B200E91BB00E3D4B9 /* BucketItemCell.swift */,
+				72899572200E982F00F4AE2C /* DataViewController.swift */,
 			);
 			path = DataView;
 			sourceTree = "<group>";
@@ -222,11 +220,11 @@
 		72ECAFB71FA25D2A00E0CFC0 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				726CC337200002EE00462A18 /* DataView */,
 				723E67291FE44F9C0091BF33 /* GameController */,
 				72ECAF8B1FA25D1D00E0CFC0 /* ViewController.swift */,
 				72BD95D21FB393F70048D5B2 /* CreativityViewController.swift */,
 				72ECAF891FA25D1D00E0CFC0 /* AppDelegate.swift */,
-				72BD95D81FB394670048D5B2 /* DataViewController.swift */,
 				72BD95D61FB3943F0048D5B2 /* AbstractionViewController.swift */,
 				72BD95DA1FB394760048D5B2 /* AlgorithsViewController.swift */,
 				72BD95DD1FB3949A0048D5B2 /* GlobalImactViewController.swift */,
@@ -242,7 +240,6 @@
 		72ECAFB81FA25D3700E0CFC0 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				726CC337200002EE00462A18 /* DataView */,
 				7298F1BD1FE45245000DAB84 /* StarField.sks */,
 				72ECAF8D1FA25D1D00E0CFC0 /* Main.storyboard */,
 				729275C71FD72B06009B6960 /* DrawingView.swift */,
@@ -425,16 +422,15 @@
 				72F8A5B01FCF39CE0041EBC9 /* internetDetailViewController.swift in Sources */,
 				7298F1D41FE452AF000DAB84 /* Utilities.swift in Sources */,
 				72ECAF8A1FA25D1D00E0CFC0 /* AppDelegate.swift in Sources */,
+				72899573200E982F00F4AE2C /* DataViewController.swift in Sources */,
 				72BD95DB1FB394760048D5B2 /* AlgorithsViewController.swift in Sources */,
 				7298F1CC1FE4526C000DAB84 /* Player.swift in Sources */,
 				7298F1C81FE4526C000DAB84 /* JuicySteak.swift in Sources */,
 				7298F1CB1FE4526C000DAB84 /* Projectile.swift in Sources */,
 				729275C81FD72B06009B6960 /* DrawingView.swift in Sources */,
 				7298F1D01FE45298000DAB84 /* GameScene.swift in Sources */,
-				726CC336200001AB00462A18 /* DataViewControllerTableViewController.swift in Sources */,
-				726CC3392000032600462A18 /* BucketItemCell.swift in Sources */,
+				72E3653C200E91BB00E3D4B9 /* BucketItemCell.swift in Sources */,
 				726CC33B2000067D00462A18 /* BucketItem.swift in Sources */,
-				72BD95D91FB394670048D5B2 /* DataViewController.swift in Sources */,
 				7298F1C61FE4526C000DAB84 /* Invader.swift in Sources */,
 				72BD95E01FB394A80048D5B2 /* ProgrammingViewController.swift in Sources */,
 				7298F1C91FE4526C000DAB84 /* InvaderLaser.swift in Sources */,

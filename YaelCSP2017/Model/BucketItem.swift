@@ -7,3 +7,15 @@
 //
 
 import Foundation
+
+public class BucketItemCell
+{
+    let itemContents : String
+    let itemAuthor : String
+    
+    init(contents : String, author: String)
+    {
+        itemContents = contents
+        itemAuthor = author
+    }
+}
