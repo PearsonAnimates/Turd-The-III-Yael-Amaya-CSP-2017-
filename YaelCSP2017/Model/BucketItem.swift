@@ -8,7 +8,7 @@
 
 import Foundation
 
-public class BucketItemCell
+public class BucketItem
 {
     let itemContents : String
     let itemAuthor : String

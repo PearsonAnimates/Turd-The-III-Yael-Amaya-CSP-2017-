@@ -71,7 +71,6 @@
         <!--Table View Controller-->
         <scene sceneID="lQ4-mo-FpS">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="itp-j8-Va9" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController id="dTa-H4-0AD" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="6m6-zm-Ruj">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -127,6 +126,7 @@
                         </connections>
                     </tableView>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="itp-j8-Va9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1500" y="-1425.3373313343329"/>
         </scene>
@@ -345,7 +345,6 @@
         <!--Data View Controller-->
         <scene sceneID="0Tr-aJ-Pws">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="xxm-aa-xoh" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="Z8Y-Sg-0co" customClass="DataViewController" customModule="YaelCSP2017" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qBR-dB-12Y">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -354,6 +353,7 @@
                         <viewLayoutGuide key="safeArea" id="2jn-z4-neB"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xxm-aa-xoh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1940" y="30"/>
         </scene>
